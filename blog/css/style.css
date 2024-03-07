@@ -1,0 +1,104 @@
+body{
+    background-color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+.containerMenu{
+    display: flex;
+    background: #4F4F4F;
+    align-items: stretch;
+    justify-content: end;
+    height: 60px;
+    margin-top: auto;
+}
+.containerMenu li, a{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: 15px;
+    color: #fff;
+    align-items: center;
+}
+.butãoContato{
+    background: #FF4500;
+    border-radius: 25px;
+    border: 1px solid #000;
+    height: 40px;
+    display: flex;
+    margin-top: 1px;
+    margin: 10px;
+}
+.sessões{
+    border: 1px solid #fff;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    margin: 40px;
+}
+.containerArtigo{
+    display: flex;
+  
+}
+.iconArtigo{
+    margin: 30px;
+}
+
+.descricao{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lucida Sans',sans-serif;
+}
+.verArtigo{
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid  rgb(86,9,121) ;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.btnVerArtigo{
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: 20px;
+}
+.titleArtigo{
+    display: none;
+}
+.teste{
+    display: none;
+}
+ @media screen and (max-width:1000px){
+    .sessões{
+        border: 1px solid #fff;
+        width: 70%;
+        height: 200px;
+        border-radius: 20px;
+        margin: 40px;
+        
+    }
+    .iconArtigo{
+       display: none;
+    }
+    .teste{
+        width: 100px;
+        display: grid;
+        margin: 1em;
+    }
+    .descricao{
+      margin: 1rem;
+      font-size: 10px;
+      width: 90px;
+    }
+    .btnVerArtigo{
+        margin-top: -10px;
+        display: flex;
+        margin-left: -1rem;
+    }
+    .verArtigo{
+       height: 20px;
+       font-size: 10px;
+    }
+ }
